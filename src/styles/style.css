@@ -1,0 +1,17 @@
+body {
+    margin: 0; /* Remover margens padrão */
+    padding: 0; /* Remover preenchimento padrão */
+    background-image: url('/src/assets/tela_fundo.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Cobrir todo o espaço disponível */
+    background-attachment: fixed; /* Tornar a imagem de fundo fixa */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(80, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
+    z-index: 1; /* Garante que o overlay esteja acima da imagem de fundo */
+}
