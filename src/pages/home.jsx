@@ -1,43 +1,51 @@
 import React from "react";
 import "../styles/style.css"
 import { Link, useNavigate } from 'react-router-dom';
+import img from "../assets/Logo_front-removebg.png" 
+
 const Home = () => {
   const navigate = useNavigate();
 
   return (
         <>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <div class="container-fluid container fs-4 mt-3">
+            <a class="navbar-brand" href="#"></a>
+            <img src={img} alt="Bootstrap" width="100" height="100"></img>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <ul class="nav nav-underline ms-auto" style={{ fontFamily: 'Fredoka, sans-serif' }}>
+                <li class="nav-item mx-3">
+                <a class="nav-link " href="#">About</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Experience</a>
+                </li>
+                <li class="nav-item mx-3">
+                <a class="nav-link" href="#">Projects</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown link
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
             </div>
-            
-        </div>
+        </div>    
         </nav>
+        <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                    One of three columns
+                    </div>
+                    <div class="col">
+                    One of three columns
+                    </div>
+                    <div class="col">
+                    One of three columns
+                    </div>
+                </div>
+            </div>
 
         </>
   );

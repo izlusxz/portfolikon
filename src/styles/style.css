@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
 body {
     margin: 0; /* Remover margens padrão */
     padding: 0; /* Remover preenchimento padrão */
@@ -15,3 +17,12 @@ body {
     background-color: rgba(80, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
     z-index: 1; /* Garante que o overlay esteja acima da imagem de fundo */
 }
+
+.bg-body-tertiary {
+    background-color: transparent !important; /* Define o fundo da barra de navegação como transparente */
+}
+
+.nav-link {
+    color: #fff !important; /* Define a cor das letras como branco */
+}
+
