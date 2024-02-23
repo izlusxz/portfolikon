@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
 body {
     margin: 0; /* Remover margens padrão */
     padding: 0; /* Remover preenchimento padrão */
-    background-image: url('/src/assets/tela_fundo.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-image: url('/src/assets/Black_Liquid.png'); /* Substitua pelo caminho da sua imagem */
     background-size: cover; /* Cobrir todo o espaço disponível */
     background-attachment: fixed; /* Tornar a imagem de fundo fixa */
 }
@@ -14,7 +15,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(80, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
+    background-color: rgba(41, 3, 47, 0.752); /* Cor preta com 50% de opacidade */
     z-index: 1; /* Garante que o overlay esteja acima da imagem de fundo */
 }
 
@@ -23,6 +24,22 @@ body {
 }
 
 .nav-link {
-    color: #fff !important; /* Define a cor das letras como branco */
+    color: #f2f2f2 !important; /* Define a cor das letras como branco */
 }
 
+.bg-branco {
+    color: #f2f2f2 !important; /* Define a cor das letras como branco */
+}
+
+.mtx {
+    margin-top: 230px;
+}
+
+.white-box{
+        margin-top: 200px;
+        width: 300px; /* Largura do quadrado */
+        height: 300px; /* Altura do quadrado */
+        background-color: #f2f2f2; /* Cor de fundo do quadrado (branco) */
+        border-radius: 50px;
+    
+}
